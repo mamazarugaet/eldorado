@@ -1,5 +1,4 @@
 /*  лоадер */
-
 .preloader {
     position: fixed;
     left: 0;
@@ -46,12 +45,10 @@
   }
   
   @keyframes preloader-bounce {
-  
     0%,
     100% {
       transform: scale(0);
     }
-  
     50% {
       transform: scale(1);
     }
@@ -66,9 +63,7 @@
     display: none;
   }
 
-
-
-/*     контент        */
+/* контент */
 *{
     box-sizing: border-box;
     font-family: PTRootUIWebRegular;
@@ -257,7 +252,7 @@ header::after{
         display: block;
     }
     .pb-2{
-        margin-bottom: 25px;
+        padding-bottom: 25px;
     }
     .black-line:before{
         position:absolute;
